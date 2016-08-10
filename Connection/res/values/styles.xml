@@ -31,6 +31,13 @@
         <item name="android:textColor">@color/color_white</item>
     </style>
     
+    <style name="style_button_dialog_negative" parent="@android:style/Widget.Button">
+    	<item name="android:background">@drawable/drawable_button_dialog_negative</item>
+        <item name="android:width">@dimen/widget_width_medial</item>
+        <item name="android:height">@dimen/widget_height</item>    
+        <item name="android:textColor">@color/color_white</item>
+    </style>
+    
     <style name="style_edittext_dialog" parent="@android:style/Widget.EditText">
         <item name="android:background">@drawable/drawable_edittext</item>
         <item name="android:textColorHint">@color/color_gray_light</item>
