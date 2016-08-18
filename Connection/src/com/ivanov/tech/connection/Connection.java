@@ -28,8 +28,8 @@ public class Connection {
         if(isOnline(context)){  
         	listener.isCompleted();
             return;
-        }
-        
+        }        
+                
         createFragmentNoConnection(context,fragmentManager,container,listener);
     }
     

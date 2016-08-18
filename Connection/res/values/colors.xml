@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     
-    <color name="color_focused">#3280b8</color>
+    <color name="color_focused">#035e8f</color>
+    
+    <color name="color_primary">#0082c9</color>
+    <color name="color_primary_dark">#02334e</color>
+    
+    <color name="color_alter">#707070</color>
+    <color name="color_alter_pressed">#575757</color>
 
-    <color name="color_gray">#707070</color>
+    <color name="color_gray">#8c8c8c</color>
     <color name="color_gray_medial">#8c8c8c</color>
     <color name="color_gray_light">#b6b6b6</color>
     <color name="color_gray_dark">#1b1b1b</color>
     <color name="color_white">#FFF</color>    
-    <color name="color_red">#c81818</color>
+    <color name="color_red">#e74c3c</color>
     <color name="color_green">#18c818</color>
     <color name="color_transparent">#0000</color>
     <color name="color_pink">#da5e5e</color>
+    <color name="color_black">#000</color>
 
     <color name="color_window_red">#c81818</color>
     <color name="color_window_white">#FFF</color>
