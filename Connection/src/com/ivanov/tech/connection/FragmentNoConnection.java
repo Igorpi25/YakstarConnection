@@ -8,6 +8,7 @@ import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.v4.app.DialogFragment;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -57,6 +58,10 @@ public class FragmentNoConnection extends DialogFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = null;
         view = inflater.inflate(R.layout.fragment_no_connection, container, false);
+        
+        setHasOptionsMenu(true);
+		((AppCompatActivity)getActivity()).getSupportActionBar().hide();
+        
         edittext_message = (TextView) view.findViewById(R.id.fragment_connection_server_textview_message);
         button_confirm = (Button) view.findViewById(R.id.fragment_connection_button_confirm);
         button_cancel = (Button) view.findViewById(R.id.fragment_connection_button_cancel);
